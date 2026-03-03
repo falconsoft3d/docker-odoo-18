@@ -1,5 +1,5 @@
-# docker-odoo-19
-Cómo instalar odoo 19 con docker
+# docker-odoo-18
+Cómo instalar odoo 18 con docker
 
 # Clonar el repo
 ```
@@ -50,6 +50,6 @@ docker-compose logs -f odoo
 # ver los logs
 ```
 docker-compose logs --tail=200 odoo
-docker logs --tail=30 odoo19
+docker logs --tail=30 odoo18
 docker-compose logs -f db
 ```
