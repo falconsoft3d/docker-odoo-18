@@ -1,6 +1,13 @@
 # docker-odoo-18
 Cómo instalar odoo 18 con docker
 
+## Actualizamos el sistema
+
+```linux
+apt-get update && apt-get upgrade -y
+```
+
+
 # Clonar el repo
 ```
 git clone https://github.com/falconsoft3d/docker-odoo-18.git
