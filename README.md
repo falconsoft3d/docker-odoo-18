@@ -77,3 +77,24 @@ nano default
 server_name j.wemakeyourdayeasy.com 11.64.123.12;
 nginx -s reload
 ```
+
+
+# Instalando el certificado digital ( https://certbot.eff.org/lets-encrypt/ubuntuxenial-nginx )
+```
+sudo apt-get update
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install python3-certbot-nginx
+sudo certbot --nginx
+-A
+- 2
+Dentro de Odoo configuras los parámetros.
+Configuración > Parámetros > Parámetros del sistema
+
+web.base.url
+http -> https
+
+web.base.url.freeze
+True
+```
