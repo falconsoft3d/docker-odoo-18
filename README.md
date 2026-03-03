@@ -98,3 +98,9 @@ http -> https
 web.base.url.freeze
 True
 ```
+
+# SSH KEY
+```
+ssh-keygen
+nano /root/.ssh/id_ed25519.pub
+```
